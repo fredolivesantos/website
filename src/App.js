@@ -1,8 +1,16 @@
-import logo from './logo.svg'
-import './App.css'
+import Card from './components/Card'
+import Sidebar from './components/Sidebar'
+import Content from './components/Content'
 
 function App() {
-  return <div className="bg-indigo-500 h-screen"></div>
+  return (
+    <div>
+      <Card className=" flex shadow-2xl rounded-lg h-screen m-56">
+        <Sidebar />
+        <Content />
+      </Card>
+    </div>
+  )
 }
 
 export default App
