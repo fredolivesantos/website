@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div className="bg-indigo-500 h-screen"></div>
 }
 
-export default App;
+export default App
+
+const skills = [
+  {
+    icons: [
+      {
+        name: 'js',
+      },
+    ],
+    title: 'Vanilla JavaScript',
+    description: '...',
+  },
+  {
+    icons: [
+      {
+        name: 'React',
+      },
+      { name: 'Vue' },
+    ],
+    title: 'Vanilla JavaScript',
+    description: '...',
+  },
+  {
+    icons: [
+      {
+        name: 'js',
+      },
+    ],
+    title: 'Vanilla JavaScript',
+    description: '...',
+  },
+]
