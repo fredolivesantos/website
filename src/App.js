@@ -4,8 +4,8 @@ import Content from './components/Content'
 
 function App() {
   return (
-    <div>
-      <Card className=" flex shadow-2xl rounded-lg h-screen m-56">
+    <div className="h-screen ">
+      <Card className="flex h-full p-52 drop-shadow-lg">
         <Sidebar />
         <Content />
       </Card>
