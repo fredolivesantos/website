@@ -5,7 +5,7 @@ import Content from './components/Content'
 function App() {
   return (
     <div className="h-screen ">
-      <Card className="flex h-full px-52 py-24 drop-shadow-lg">
+      <Card className="flex h-full px-52 py-24 drop-shadow-2xl shadow-inner-xl">
         <Sidebar />
         <Content />
       </Card>
