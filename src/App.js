@@ -1,11 +1,11 @@
-import Card from './components/Card'
+import Card from './components/Sidebar/Card'
 import Sidebar from './components/Sidebar'
 import Content from './components/Content'
 
 function App() {
   return (
     <div className="h-screen ">
-      <Card className="flex h-full p-52 drop-shadow-lg">
+      <Card className="flex h-full px-52 py-24 drop-shadow-lg">
         <Sidebar />
         <Content />
       </Card>
