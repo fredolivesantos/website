@@ -1,5 +1,6 @@
 import Introduction from './Content/Introduction'
 import Resume from './Content/Resume'
+import Skills from './Content/Skills'
 
 const Content = () => {
   return (
@@ -7,6 +8,7 @@ const Content = () => {
       <Introduction />
       <img src="https://i.pravatar.cc/300" className="absolute top-0 right-0 pr-10 pt-5 max-h-" />
       <Resume />
+      <Skills />
     </div>
   )
 }
