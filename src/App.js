@@ -4,10 +4,10 @@ import Content from './components/Content'
 
 function App() {
   return (
-    <div className="h-screen ">
-      <Card className="flex h-full px-52 py-24 drop-shadow-2xl shadow-inner-xl">
+    <div className="h-screen relative flex">
+      <Card className="static flex h-full px-52 py-24 drop-shadow-2xl shadow-inner-xl flex-shrink-0">
         <Sidebar />
-        <Content />
+        <Content className="max-h-screen max-w-screen overflow-hidden" />
       </Card>
     </div>
   )

@@ -6,7 +6,7 @@ import HireMe from './Sidebar/HireMe'
 
 const Sidebar = () => {
   return (
-    <div className="rounded-l-lg w-1/6 h-full bg-main ">
+    <div className="rounded-l-lg w-1/6 h-full bg-main static">
       <Profile />
       <Menu />
       <Socials />
