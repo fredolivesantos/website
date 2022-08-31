@@ -6,10 +6,10 @@ import HireMe from './Sidebar/HireMe'
 
 const Sidebar = () => {
   return (
-    <div className="rounded-l-lg w-1/6 h-full bg-main static">
+    <div className="rounded-l-lg w-1/6 h-full bg-main static overflow-scroll">
       <Profile />
       <Menu />
-      <Socials />
+      <Socials className="items-center" />
       <Select />
       <HireMe />
     </div>

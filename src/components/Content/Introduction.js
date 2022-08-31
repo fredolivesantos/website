@@ -8,8 +8,12 @@ const Introduction = () => {
         software development on my blog. Want to know how I may help your project? Check out my project portfolio and
         online resume.
       </p>
-      <button className="rounded p-2 bg-main	text-white ml-7 mt-5 text-sm">View Portfolio</button>
-      <button className=" rounded p-2 bg-slate-900	text-white ml-7 mt-5 text-sm">View Resume</button>
+      <button className="rounded p-2 bg-main	text-white ml-7 mt-5 text-sm hover:bg-lime-500 transition delay-75 ">
+        View Portfolio
+      </button>
+      <button className=" rounded p-2 bg-slate-900	text-white ml-7 mt-5 text-sm hover:bg-neutral-500 transition delay-75">
+        View Resume
+      </button>
       <img src="https://i.pravatar.cc/300" className="absolute top-0 right-0 pr-7 pt-7" />
     </div>
   )
