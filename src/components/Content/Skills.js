@@ -11,8 +11,8 @@ const Skills = () => {
         <SiJavascript className="text-yellow" />
         <h1 className="text-xl">Javascript</h1>
         <p className="text-xs max-w-xxs pt-1 leading-5 tracking-wide">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Felis eget velit aliquet sagittis id consectetur purus ut.
+          The language I use the most and know most of. Also my favourite and the one where I get the most enjoynment
+          of!
         </p>
       </div>
 
@@ -20,8 +20,7 @@ const Skills = () => {
         <DiReact />
         <h1 className="text-xl">React</h1>
         <p className="text-xs max-w-xxs pt-1 leading-5 tracking-wide">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Felis eget velit aliquet sagittis id consectetur purus ut.
+          The other one I use the most wth Javascript, where I can develop website a lot more dinamically.
         </p>
       </div>
 
@@ -29,8 +28,7 @@ const Skills = () => {
         <FaGitAlt />
         <h1 className="text-xl">Git</h1>
         <p className="text-xs max-w-xxs pt-1 leading-5 tracking-wide">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Felis eget velit aliquet sagittis id consectetur purus ut.
+          Essential for everyday. If I don't upload my projects, I feel very afraid of losing my code after a long day.
         </p>
       </div>
 
@@ -41,8 +39,19 @@ const Skills = () => {
           <DiCss3 />
         </div>
         <p className="text-xs max-w-xxs pt-1 leading-5 tracking-wide">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Felis eget velit aliquet sagittis id consectetur purus ut.
+          Started with these two languages. Even though I dont use them much as their own right now, they were the base
+          to make me the developer I am today.
+        </p>
+      </div>
+
+      <div className="text-xl pt-6">
+        <h1>Bootstrap and Tailwind</h1>
+        <div className="flex flex-row">
+          <AiFillHtml5 />
+          <DiCss3 />
+        </div>
+        <p className="text-xs max-w-xxs pt-1 leading-5 tracking-wide">
+          My prefered way to write CSS is with these two frameworks, with a big preference to Tailwind.
         </p>
       </div>
     </div>
