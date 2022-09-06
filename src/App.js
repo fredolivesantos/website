@@ -1,29 +1,28 @@
+import { useState } from 'react'
+
 import Card from './components/Sidebar/Card'
 import Sidebar from './components/Sidebar'
 import Content from './components/Content'
+import { SiJavascript } from 'react-icons/si'
 
 function App() {
   return (
     <div className="h-screen relative flex">
-      <Card className="static flex h-full px-52 py-24 drop-shadow-2xl shadow-inner-xl flex-shrink-0">
+      <Card className="flex m-auto min-w-[1600px] h-full min-h-[800px] max-h-[1000px] px-52 py-24 drop-shadow-2xl shadow-inner-xl flex-shrink-0">
         <Sidebar />
-        <Content className="max-h-screen max-w-screen overflow-hidden" />
+        <Content className="max-h-screen max-w-screen overflow-hidden" items={skills} />
       </Card>
     </div>
   )
 }
 
-export default App
-
 const skills = [
   {
-    icons: [
-      {
-        name: 'js',
-      },
-    ],
-    title: 'Vanilla JavaScript',
-    description: '...',
+    icons: <SiJavascript />,
+
+    name: 'JavaScript',
+    description:
+      'The language I use the most and know most of. Also my favourite and the one where I get the most enjoynment of!',
   },
   {
     icons: [
@@ -45,3 +44,5 @@ const skills = [
     description: '...',
   },
 ]
+
+export default App

@@ -1,6 +1,6 @@
 import Introduction from './Content/Introduction'
 import Resume from './Content/Resume'
-import Skills from './Content/Skills'
+import Skills from './Content/SkillList'
 
 const Content = () => {
   return (
