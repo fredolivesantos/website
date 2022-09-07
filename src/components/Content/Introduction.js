@@ -11,9 +11,10 @@ const Introduction = () => {
       <button className="rounded p-2 bg-main	text-white ml-7 mt-5 text-sm hover:bg-lime-500 transition delay-75">
         View Portfolio
       </button>
+
       <button
         className="rounded p-2 bg-slate-900 text-white ml-7 mt-5 text-sm hover:bg-neutral-500 transition delay-75"
-        onclick="location.href='https://fredsantos.dev/FredSantos_Frontend_Developer.pdf'"
+        onClick={() => window.open(`https://fredsantos.dev/FredSantos_Frontend_Developer.pdf`)}
         type="button"
       >
         Download CV
