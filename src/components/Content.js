@@ -4,7 +4,7 @@ import Skills from './Content/SkillList'
 
 const Content = () => {
   return (
-    <div className="grow w-auto h-full bg-white rounded-r-lg overflow-scroll min-h-full">
+    <div className="grow w-auto h-full bg-contcolor rounded-r-lg overflow-scroll min-h-full">
       <Introduction className="static" />
 
       <Resume />

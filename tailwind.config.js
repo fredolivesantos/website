@@ -7,6 +7,14 @@ module.exports = {
     extend: {
       colors: {
         main: '#80B290',
+        contcolor: '#f2f2f2',
+        js: '#FFD338',
+        rcolor: '#3CC8EA',
+        gitcolor: '#EA4632',
+        htmlcolor: '#E9462B',
+        csscolor: '#0060A4',
+        bootcolor: '#603386',
+        tailcolor: '#00ABCC',
       },
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],

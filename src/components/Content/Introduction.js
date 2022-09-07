@@ -1,6 +1,3 @@
-import saveFile from './saveFile'
-import FileSaver from 'file-saver'
-
 const Introduction = () => {
   return (
     <div className="relative">
@@ -14,8 +11,12 @@ const Introduction = () => {
       <button className="rounded p-2 bg-main	text-white ml-7 mt-5 text-sm hover:bg-lime-500 transition delay-75">
         View Portfolio
       </button>
-      <button className=" rounded p-2 bg-slate-900	text-white ml-7 mt-5 text-sm hover:bg-neutral-500 transition delay-75">
-        View Resume
+      <button
+        className="rounded p-2 bg-slate-900 text-white ml-7 mt-5 text-sm hover:bg-neutral-500 transition delay-75"
+        onclick="location.href='https://fredsantos.dev/FredSantos_Frontend_Developer.pdf'"
+        type="button"
+      >
+        Download CV
       </button>
       <img src="https://i.pravatar.cc/300" className="absolute top-0 right-0 pr-7 pt-7" />
     </div>
