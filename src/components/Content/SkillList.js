@@ -18,7 +18,7 @@ function SkillList() {
     {
       icon: <DiReact className="text-rcolor" />,
       name: 'React',
-      description: 'The other one I use the most with Javascript, where I can develop website a lot more dinamically.',
+      description: 'The other one I use the most with Javascript, where I can develop websites a lot more dinamically.',
     },
     {
       icon: <FaGitAlt className="text-gitcolor" />,
