@@ -10,7 +10,7 @@ const Sidebar = () => {
       <Profile />
       <Menu />
       <Socials className="items-center" />
-      <Select />
+      {/* <Select /> */}
       <HireMe />
     </div>
   )
